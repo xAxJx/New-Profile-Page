@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sirin+Stencil&display=swap');
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: linear-gradient(transparent, 70%, #233018);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #628141;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #233018;
+  font-size: medium;
+  line-height: normal;
+  text-align: center;
+}
+
+#img-circle {
+  border: 3px solid;
+  border-color: #233018;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Sirin Stencil", sans-serif;
+  font-size: 60px;
+  line-height: 0.2;
+}
+
+h2 {
+  font-family: "Roboto";
+}
+
+h3 {
+  font-family: "Roboto";
+}
+
+a {
+  color: #233018;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+a:hover {
+  color: #DB9812;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding-left: 0px;
+}
+
+.card {
+  justify-content: center;
+  background-image: linear-gradient(#628141, #A4C486, #628141);
+  background-color: #A4C486;
+  border-radius: 10px;
+  padding: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 15px;
+  margin-top: 25px;
+  border: solid 3px;
+  border-color:#233018;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.link-box {
+  text-align: center;
+  background-image: linear-gradient(#A4C486, #628141, #A4C486);
+  background-color: #A4C486;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 10px;
+  border: solid 2px;
+  border-color:#233018;
+  box-shadow: 0px 0px 5px 5px black;
+  width: 100px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 500px;
+  }
+
+  .link-box {
+    width: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 400px;
+  }
+
+  .link-box {
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
