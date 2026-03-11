@@ -41,7 +41,7 @@ h3 {
 
 a {
   color: #233018;
-  text-decoration: none;
+  text-decoration: underline;
   transition: 0.5s ease;
 }
 
