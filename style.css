@@ -37,6 +37,7 @@ h2 {
 
 h3 {
   font-family: "Roboto";
+  text-decoration: underline;
 }
 
 a {
@@ -58,6 +59,23 @@ a:hover {
   list-style: none;
   padding-left: 0px;
   padding-left: 0px;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+
+}
+.screenshot {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: 2px solid black;
+  border-radius: 3px;
 }
 
 .card {
@@ -88,6 +106,14 @@ a:hover {
   border-color:#233018;
   box-shadow: 0px 0px 5px 5px black;
   width: 100px;
+}
+
+.project-box {
+  border: solid 1px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px black;
 }
 
 @media (max-width: 960px) {
